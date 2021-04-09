@@ -1,0 +1,7 @@
+<!--pages/page2/page2.wxml-->
+<text>你好，我是装备栏</text>
+
+<view wx:if="{{num>4}}">1</view>
+<view wx:elif="{{num>3}}">2</view>
+<view wx:elif="{{num>2}}">3</view>
+<view wx:else>1</view>

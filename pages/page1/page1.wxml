@@ -1,0 +1,180 @@
+<!--pages/page1/page1.wxml-->
+<!-- 搜索框 -->
+<view class="search">
+  <view class="cen-word">
+    <image src="../static/ss.png"></image> 快来搜索你感兴趣的装备吧
+  </view>
+</view>
+<!-- 轮播 -->
+<view class="swip">
+  <image src="../static/xb.png"></image>
+</view>
+<!-- 图片展示 -->
+<view class="show">
+  <!-- 左 -->
+  <view class="left">
+    <image src="../static/xb.png"></image>
+  </view>
+  <!-- 右 -->
+  <view class="right">
+    <view class="top">
+      <image src="../static/gdq.png"></image>
+    </view>
+    <view class="bot">
+      <image src="../static/xx.png"></image>
+    </view>
+  </view>
+  <!-- 下 -->
+  <view class="bottom">新手选版</view>
+</view>
+<!-- 评论 -->
+<view class="comment">
+  <!-- 头部 -->
+  <view class="header">
+    <view class="bg"></view>
+    <!-- 文字 -->
+    <view class="wz">
+      <span class="span1">版友说</span>
+      <span class="span2">真实买家评论</span>
+    </view>
+  </view>
+  <!-- 分类 -->
+  <view class="mod">
+    <!-- 产品 1-->
+    <view class="prduc1">
+      <!-- 左边 -->
+      <view class="left">
+        <view class="top">
+          <image src="../static/xb.png"></image>
+        </view>
+        <!-- 底部 -->
+        <view class="bottom">
+          <!-- 上 -->
+          <view class="info1">
+            <span>Union</span>
+            <span>18/19</span>
+          </view>
+          <!-- 下 -->
+          <view class="info2">
+            Force Force The The...
+          </view>
+        </view>
+      </view>
+      <!-- 右边 -->
+      <view class="right">
+        <view class="right_info1">
+          <span>子牧</span>
+          <span>2019-07-22</span>
+        </view>
+        <view class="right_info2">
+          <image src="../static/yx.png"></image>
+          <image src="../static/yx.png"></image>
+          <image src="../static/yx.png"></image>
+          <image src="../static/wx.png"></image>
+          <image src="../static/wx.png"></image>
+        </view>
+        <view class="right_info3">
+          这板块是我最爱之一。如果你想姿势漂亮的搞定公园，这块版将非常适合你。能很好的落在扶手上。
+        </view>
+        <!-- <view class="right_info4"></view> -->
+      </view>
+    </view>
+
+    <!-- 产品2 -->
+    <view class="prduc1">
+      <!-- 左边 -->
+      <view class="left">
+        <view class="top">
+          <image src="../static/xb.png"></image>
+        </view>
+        <!-- 底部 -->
+        <view class="bottom">
+          <!-- 上 -->
+          <view class="info1">
+            <span>Union</span>
+            <span>18/19</span>
+          </view>
+          <!-- 下 -->
+          <view class="info2">
+            Force Force The The...
+          </view>
+        </view>
+      </view>
+      <!-- 右边 -->
+      <view class="right">
+        <view class="right_info1">
+          <span>子牧</span>
+          <span>2019-07-22</span>
+        </view>
+        <view class="right_info2">
+          <image src="../static/yx.png"></image>
+          <image src="../static/yx.png"></image>
+          <image src="../static/yx.png"></image>
+          <image src="../static/wx.png"></image>
+          <image src="../static/wx.png"></image>
+        </view>
+        <view class="right_info3">
+          这板块是我最爱之一。如果你想姿势漂亮的搞定公园，这块版将非常适合你。能很好的落在扶手上。
+        </view>
+        <!-- <view class="right_info4"></view> -->
+      </view>
+    </view>
+
+    <!-- 产品 3-->
+    <view class="prduc1">
+      <!-- 左边 -->
+      <view class="left">
+        <view class="top">
+          <image src="../static/xb.png"></image>
+        </view>
+        <!-- 底部 -->
+        <view class="bottom">
+          <!-- 上 -->
+          <view class="info1">
+            <span>Union</span>
+            <span>18/19</span>
+          </view>
+          <!-- 下 -->
+          <view class="info2">
+            Force Force The The...
+          </view>
+        </view>
+      </view>
+      <!-- 右边 -->
+      <view class="right">
+        <view class="right_info1">
+          <span>子牧</span>
+          <span>2019-07-22</span>
+        </view>
+        <view class="right_info2">
+          <image src="../static/yx.png"></image>
+          <image src="../static/yx.png"></image>
+          <image src="../static/yx.png"></image>
+          <image src="../static/wx.png"></image>
+          <image src="../static/wx.png"></image>
+        </view>
+        <view class="right_info3">
+          这板块是我最爱之一。如果你想姿势漂亮的搞定公园，这块版将非常适合你。能很好的落在扶手上。
+        </view>
+        <!-- <view class="right_info4"></view> -->
+      </view>
+    </view>
+    <!-- 换一批 -->
+    <view class="chang">换一批</view>
+    <!-- 指南 -->
+    <view class="zhinan">
+      <view class="left"></view>
+      <view class="cen">装备指南</view>
+      <view class="right">从小白到装备控的进阶之路</view>
+    </view>
+
+    <!-- 其他 -->
+    <view class="foot">
+      <view class="qita">怎样挑选合适的板长？</view>
+      <view class="qita">庖丁解板——单板主要参数解析</view>
+      <view class="qita">固定器的挑选</view>
+      <view class="qita">说说单板的硬度 <span>更多文章 ></span></view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,292 @@
+/* pages/page1/page1.wxss */
+.search{
+  width: 690rpx;
+  height: 70rpx;
+  background: #f6f6f6;
+  margin: 0 auto;
+  border-radius: 10rpx;
+}
+.search .cen-word{
+  width: 345rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 25rpx;
+  margin: 0 auto;
+  color: #a0a0a0;
+}
+.search .cen-word image{
+  width: 23rpx;
+  height: 23rpx;
+}
+.swip{
+  width: 690rpx;
+  height: 420rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+.swip image{
+  width: 100%;
+  height: 100%;
+}
+.show{
+  width: 690rpx;
+  height: 540rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+.show .left{
+  width: 340rpx;
+  height: 420rpx;
+  display: inline-block;
+}
+.show .left image{
+  width: 100%;
+  height: 100%;
+}
+.show .right{
+  width: 335rpx;
+  height: 420rpx;
+  float: right;
+  display: inline-block;
+}
+.show .right .top{
+  width: 355rpx;
+  height: 200rpx;
+}
+.show .right .top image{
+  width: 100%;
+  height: 100%;
+}
+.show .right .bot{
+  width: 355rpx;
+  height: 200rpx;
+  margin-top: 15rpx;
+}
+.show .right .bot image{
+  width: 100%;
+  height: 100%;
+}
+.show .bottom{
+  width: 690rpx;
+  height: 95rpx;
+  line-height: 95rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #ffffff;
+  margin: 0 auto;
+  background: #649df3;
+  border-radius: 8rpx;
+}
+.comment{
+  width: 100%;
+}
+.comment .header{
+  width: 690rpx;
+  height: 35rpx;
+  margin: 55rpx auto 0rpx;
+  position: relative;
+}
+.comment .header .bg{
+  width: 10rpx;
+  height: 25rpx;
+  background: #649df3;
+  border-radius: 5rpx;
+  position: absolute;
+  bottom: 0rpx;
+  display: inline-block;
+}
+.comment .header .wz{
+  width: 268rpx;
+  height: 35rpx;
+  display: inline-block;
+  position: absolute;
+  top: 0rpx;
+  left: 25rpx;
+}
+.comment .header .wz .span1{
+  width: 110rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 35rpx;
+  color: #333333;
+  float: left;
+  margin-top: 0rpx;
+}
+.comment .header .wz .span2{
+  width: 142rpx;
+  height: 25rpx;
+  float: right;
+  margin-top: 8rpx;
+  font-size: 25rpx;
+  color: #aaaaaa;
+}
+/* 分类 */
+.comment .mod{
+  width: 690rpx;
+  height: 1295rpx;
+  margin: 0 auto;
+  /* background: red; */
+}
+/* 产品1 */
+.comment .mod .prduc1{
+  width: 690rpx;
+  height: 430rpx;
+  border-bottom: 1px solid #ebebeb;
+}
+.comment .mod .prduc1 .left{
+  width: 220rpx;
+  height: 430rpx;
+  padding-top: 62rpx;
+  display: inline-block;
+}
+.comment .mod .prduc1 .left .top{
+  width: 220rpx;
+  height: 215rpx;
+}
+.comment .mod .prduc1 .left .top image{
+  width: 100%;
+  height: 100%;
+}
+.comment .mod .prduc1 .left .bottom{
+  width: 220rpx;
+  height: 70rpx;
+  margin-top: 46rpx;
+  /* background: skyblue; */
+}
+.comment .mod .prduc1 .left .bottom .info1{
+  width: 220rpx;
+  height: 30rpx;
+}
+.comment .mod .prduc1 .left .bottom .info1 span:nth-child(1){
+  font-size: 25rpx;
+  float: left;
+  display: inline-block;
+}
+.comment .mod .prduc1 .left .bottom .info1 span:nth-child(2){
+  width: 60rpx;
+  height: 30rpx;
+  font-size: 16rpx;
+  line-height: 30rpx;
+  text-align: center;
+  background: #cccccc;
+  float: right;
+  display: inline-block;
+  border-radius: 3rpx;
+}
+.comment .mod .prduc1 .left .bottom .info2{
+  width: 220rpx;
+  height: 20rpx;
+  font-size: 20rpx;
+  margin-top: 17rpx;
+}
+.comment .mod .prduc1 .right{
+  width: 470rpx;
+  height: 395rpx;
+  display: inline-block;
+  /* background: red; */
+  position: relative;
+}
+.comment .mod .prduc1 .right .right_info1{
+  width: 460rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-left: 10rpx;
+  margin-top: 45rpx;
+}
+.comment .mod .prduc1 .right .right_info1 span:nth-child(1){
+  font-size: 25rpx;
+  float: left;
+}
+.comment .mod .prduc1 .right .right_info1 span:nth-child(2){
+  font-size: 25rpx;
+  float: right;
+  font-size: 18rpx;
+  color: #aaaaaa;
+}
+.comment .mod .prduc1 .right .right_info2{
+  width: 200rpx;
+  height: 27rpx;
+  background: #ffffff;
+  position: absolute;
+  top: 95rpx;
+  left: 10rpx;
+  /* margin-top: 15rpx;
+  margin-left: 10rpx; */
+}
+.comment .mod .prduc1 .right .right_info2 image{
+  width: 30rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+}
+.comment .mod .prduc1 .right .right_info3{
+  width: 470rpx;
+  height: 123rpx;
+  line-height: 40rpx;
+  font-size: 25rpx;
+  letter-spacing: 7rpx;
+  position: absolute;
+  top: 155rpx;
+  left: 10rpx;
+}
+.chang{
+  width: 690rpx;
+  height: 30rpx;
+  text-align: center;
+  line-height: 30rpx;
+  margin: 0 auto;
+  font-size: 30rpx;
+  margin-top: 40rpx;
+  color: #649df3;
+}
+.zhinan{
+  width: 690rpx;
+  height: 40rpx;
+  margin: 0 auto;
+  position: relative;
+}
+.zhinan .left{
+  width: 10rpx;
+  height: 25rpx;
+  position: absolute;
+  top: 18rpx;
+  background: #649df3;
+  border-radius: 10rpx;
+  display: inline-block;
+}
+.zhinan .cen{
+  width: 145rpx;
+  height: 40rpx;
+  display: inline-block;
+  position: absolute;
+  left: 20rpx;
+  font-size: 33rpx;
+  color: #333333;
+}
+.zhinan .right{
+  width: 288rpx;
+  height: 25rpx;
+  display: inline-block;
+  position: absolute;
+  left: 194rpx;
+  top: 10rpx;
+  font-size: 25rpx;
+  color: #aaaaaa;
+}
+.foot{
+  width: 690rpx;
+  height: 325rpx;
+  margin: 0 auto;
+}
+.foot .qita{
+  width: 690rpx;
+  height: 28rpx;
+  font-size: 28rpx;
+  color: #333333;
+  margin-top: 50rpx;
+}
+.foot .qita span{
+  float: right;
+  color: #649df3;
+  font-size: 26rpx;
+}
